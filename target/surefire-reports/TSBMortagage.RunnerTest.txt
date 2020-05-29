@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: TSBMortagage.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 74, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.83 sec - in TSBMortagage.RunnerTest

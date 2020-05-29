@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>TSBMortgage</td>
+                          <td>1</td>
+                        <td>18 May 2020, 15:36</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">StepDefinations.i_am_on_the_homepage()</td>
+                <td>1</td>
+                <td class="duration" data-value="7513528599">7s 513ms</td>
+                <td class="duration" data-value="7513528599">7s 513ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_No_on_Politically_exposed_person()</td>
+                <td>1</td>
+                <td class="duration" data-value="102833800">102ms</td>
+                <td class="duration" data-value="102833800">102ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_No_on_US_Citizen_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="108461600">108ms</td>
+                <td class="duration" data-value="108461600">108ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_a_next_button_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="2259174701">2s 259ms</td>
+                <td class="duration" data-value="2259174701">2s 259ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_a_number_of_dependant()</td>
+                <td>1</td>
+                <td class="duration" data-value="80201800">080ms</td>
+                <td class="duration" data-value="80201800">080ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_a_sole_applicant()</td>
+                <td>1</td>
+                <td class="duration" data-value="98571300">098ms</td>
+                <td class="duration" data-value="98571300">098ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_current_employment_status_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="164039900">164ms</td>
+                <td class="duration" data-value="164039900">164ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_next_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="1272632900">1s 272ms</td>
+                <td class="duration" data-value="1272632900">1s 272ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_next_button_on_expenditure_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="3519405500">3s 519ms</td>
+                <td class="duration" data-value="3519405500">3s 519ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_on_other_income_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="124550300">124ms</td>
+                <td class="duration" data-value="124550300">124ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_on_the_CCJ_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="82172300">082ms</td>
+                <td class="duration" data-value="82172300">082ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_on_the_IO_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="75976200">075ms</td>
+                <td class="duration" data-value="75976200">075ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_on_the_bankruptcy_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="82506100">082ms</td>
+                <td class="duration" data-value="82506100">082ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_on_the_name_change_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="146062999">146ms</td>
+                <td class="duration" data-value="146062999">146ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_the_arrears_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="83764600">083ms</td>
+                <td class="duration" data-value="83764600">083ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_to_buying_flat_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="82455800">082ms</td>
+                <td class="duration" data-value="82455800">082ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_to_new_build_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="96314301">096ms</td>
+                <td class="duration" data-value="96314301">096ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_to_own_properties_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="78594999">078ms</td>
+                <td class="duration" data-value="78594999">078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_to_property_wish_question_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="93206300">093ms</td>
+                <td class="duration" data-value="93206300">093ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_no_to_purchase_scheme_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="113935900">113ms</td>
+                <td class="duration" data-value="113935900">113ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_number_of_main_incomes()</td>
+                <td>1</td>
+                <td class="duration" data-value="4457220101">4s 457ms</td>
+                <td class="duration" data-value="4457220101">4s 457ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_No_to_post_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="80594700">080ms</td>
+                <td class="duration" data-value="80594700">080ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_No_to_text_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="97873200">097ms</td>
+                <td class="duration" data-value="97873200">097ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_Submit_application()</td>
+                <td>1</td>
+                <td class="duration" data-value="1573478000">1s 573ms</td>
+                <td class="duration" data-value="1573478000">1s 573ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_address_dropdown_to_select_address()</td>
+                <td>1</td>
+                <td class="duration" data-value="1430850401">1s 430ms</td>
+                <td class="duration" data-value="1430850401">1s 430ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_continue_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="8198951700">8s 198ms</td>
+                <td class="duration" data-value="8198951700">8s 198ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_continue_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="701398901">701ms</td>
+                <td class="duration" data-value="701398901">701ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_contract_type_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="115224701">115ms</td>
+                <td class="duration" data-value="115224701">115ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_find_address_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="3085635500">3s 085ms</td>
+                <td class="duration" data-value="3085635500">3s 085ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_get_a_mortagage_promise_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="481295899">481ms</td>
+                <td class="duration" data-value="481295899">481ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_next_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="590828400">590ms</td>
+                <td class="duration" data-value="590828400">590ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_next_option()</td>
+                <td>1</td>
+                <td class="duration" data-value="661437400">661ms</td>
+                <td class="duration" data-value="661437400">661ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_the_Firstime_buyer_link()</td>
+                <td>1</td>
+                <td class="duration" data-value="3926358699">3s 926ms</td>
+                <td class="duration" data-value="3926358699">3s 926ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_the_continue_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="763344701">763ms</td>
+                <td class="duration" data-value="763344701">763ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_the_male_gender_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="328925800">328ms</td>
+                <td class="duration" data-value="328925800">328ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_type_of_employment_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="120762000">120ms</td>
+                <td class="duration" data-value="120762000">120ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_yes_to_email_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="78512801">078ms</td>
+                <td class="duration" data-value="78512801">078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_on_yes_to_phone_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="84101401">084ms</td>
+                <td class="duration" data-value="84101401">084ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_yes_on_Age_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="79786999">079ms</td>
+                <td class="duration" data-value="79786999">079ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_yes_on_first_time_buyer_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="347989801">347ms</td>
+                <td class="duration" data-value="347989801">347ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_yes_on_main_residence_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="80753500">080ms</td>
+                <td class="duration" data-value="80753500">080ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_yes_on_resident_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="93735399">093ms</td>
+                <td class="duration" data-value="93735399">093ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_click_yes_on_the_income_question()</td>
+                <td>1</td>
+                <td class="duration" data-value="88170000">088ms</td>
+                <td class="duration" data-value="88170000">088ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_Basic_annual_income()</td>
+                <td>1</td>
+                <td class="duration" data-value="85296800">085ms</td>
+                <td class="duration" data-value="85296800">085ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_DOB()</td>
+                <td>1</td>
+                <td class="duration" data-value="568276101">568ms</td>
+                <td class="duration" data-value="568276101">568ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_Fist_name()</td>
+                <td>1</td>
+                <td class="duration" data-value="112947599">112ms</td>
+                <td class="duration" data-value="112947599">112ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_date_moved()</td>
+                <td>1</td>
+                <td class="duration" data-value="531997399">531ms</td>
+                <td class="duration" data-value="531997399">531ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_last_name()</td>
+                <td>1</td>
+                <td class="duration" data-value="108853800">108ms</td>
+                <td class="duration" data-value="108853800">108ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_loan_amount()</td>
+                <td>1</td>
+                <td class="duration" data-value="91843600">091ms</td>
+                <td class="duration" data-value="91843600">091ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_monthly_net_income()</td>
+                <td>1</td>
+                <td class="duration" data-value="116780500">116ms</td>
+                <td class="duration" data-value="116780500">116ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_postcode()</td>
+                <td>1</td>
+                <td class="duration" data-value="100597501">100ms</td>
+                <td class="duration" data-value="100597501">100ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_preferred_email_address()</td>
+                <td>1</td>
+                <td class="duration" data-value="160226900">160ms</td>
+                <td class="duration" data-value="160226900">160ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_purchase_price()</td>
+                <td>1</td>
+                <td class="duration" data-value="82153100">082ms</td>
+                <td class="duration" data-value="82153100">082ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_source_of_deposit()</td>
+                <td>1</td>
+                <td class="duration" data-value="177161901">177ms</td>
+                <td class="duration" data-value="177161901">177ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_a_telephone_number()</td>
+                <td>1</td>
+                <td class="duration" data-value="124587000">124ms</td>
+                <td class="duration" data-value="124587000">124ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_anticipated_retirement_age()</td>
+                <td>1</td>
+                <td class="duration" data-value="65056200">065ms</td>
+                <td class="duration" data-value="65056200">065ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_date_started()</td>
+                <td>1</td>
+                <td class="duration" data-value="525955900">525ms</td>
+                <td class="duration" data-value="525955900">525ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_employers_name()</td>
+                <td>1</td>
+                <td class="duration" data-value="100526100">100ms</td>
+                <td class="duration" data-value="100526100">100ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_my_city_of_birth()</td>
+                <td>1</td>
+                <td class="duration" data-value="103291400">103ms</td>
+                <td class="duration" data-value="103291400">103ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_enter_occupation()</td>
+                <td>1</td>
+                <td class="duration" data-value="87708099">087ms</td>
+                <td class="duration" data-value="87708099">087ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_Buy_a_home_from_application_type_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="3154182800">3s 154ms</td>
+                <td class="duration" data-value="3154182800">3s 154ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_a_country_of_birth_from_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="232007301">232ms</td>
+                <td class="duration" data-value="232007301">232ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_a_country_of_residence()</td>
+                <td>1</td>
+                <td class="duration" data-value="266901500">266ms</td>
+                <td class="duration" data-value="266901500">266ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_a_country_of_tax_residence_from_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="244585900">244ms</td>
+                <td class="duration" data-value="244585900">244ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_a_nationality_from_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="319791300">319ms</td>
+                <td class="duration" data-value="319791300">319ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_a_residential_status()</td>
+                <td>1</td>
+                <td class="duration" data-value="891291601">891ms</td>
+                <td class="duration" data-value="891291601">891ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_a_title_from_the_dropdown_menu()</td>
+                <td>1</td>
+                <td class="duration" data-value="501334099">501ms</td>
+                <td class="duration" data-value="501334099">501ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_contract_type_from_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="101819799">101ms</td>
+                <td class="duration" data-value="101819799">101ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_employment_status()</td>
+                <td>1</td>
+                <td class="duration" data-value="136158600">136ms</td>
+                <td class="duration" data-value="136158600">136ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_property_type()</td>
+                <td>1</td>
+                <td class="duration" data-value="3140643100">3s 140ms</td>
+                <td class="duration" data-value="3140643100">3s 140ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_single_from_the_marital_status_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="267885300">267ms</td>
+                <td class="duration" data-value="267885300">267ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_select_type_of_employment_from_dropdown()</td>
+                <td>1</td>
+                <td class="duration" data-value="83742400">083ms</td>
+                <td class="duration" data-value="83742400">083ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.i_tick_the_disclosure_radio_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="444883200">444ms</td>
+                <td class="duration" data-value="444883200">444ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">StepDefinations.setup()</td>
+                <td>1</td>
+                <td class="duration" data-value="6748721899">6s 748ms</td>
+                <td class="duration" data-value="6748721899">6s 748ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>74</td>
+              <td>74</td>
+              <td class="duration">1m 3s 322ms</td>
+              <td class="duration">855ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

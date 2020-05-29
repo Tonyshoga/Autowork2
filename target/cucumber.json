@@ -1,0 +1,941 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6748721899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "As a first time buyer i want to be able to get  mortgage promise",
+        "description": "",
+        "id": "first-buyer--test;as-a-first-time-buyer-i-want-to-be-able-to-get--mortgage-promise",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7513528599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "StepDefinations.i_am_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3926358699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Firstime buyer link",
+            "match": {
+              "location": "StepDefinations.i_click_on_the_Firstime_buyer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481295899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on get a mortagage promise button",
+            "match": {
+              "location": "StepDefinations.i_click_on_get_a_mortagage_promise_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8198951700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on continue button",
+            "match": {
+              "location": "StepDefinations.i_click_on_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3154182800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select Buy a home from application type dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_Buy_a_home_from_application_type_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98571300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click  a sole applicant",
+            "match": {
+              "location": "StepDefinations.i_click_a_sole_applicant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79786999,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click yes on Age question",
+            "match": {
+              "location": "StepDefinations.i_click_yes_on_Age_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93735399,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click yes on resident question",
+            "match": {
+              "location": "StepDefinations.i_click_yes_on_resident_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80753500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click yes on main residence question",
+            "match": {
+              "location": "StepDefinations.i_click_yes_on_main_residence_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88170000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click  yes on the income question",
+            "match": {
+              "location": "StepDefinations.i_click_yes_on_the_income_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83764600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click no the arrears question",
+            "match": {
+              "location": "StepDefinations.i_click_no_the_arrears_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82172300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click  no on the CCJ question",
+            "match": {
+              "location": "StepDefinations.i_click_no_on_the_CCJ_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82506100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click no on the bankruptcy question",
+            "match": {
+              "location": "StepDefinations.i_click_no_on_the_bankruptcy_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75976200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click no on the IO question",
+            "match": {
+              "location": "StepDefinations.i_click_no_on_the_IO_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 701398901,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i click on continue option",
+            "match": {
+              "location": "StepDefinations.i_click_on_continue_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444883200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I tick the disclosure radio button",
+            "match": {
+              "location": "StepDefinations.i_tick_the_disclosure_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763344701,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the continue button",
+            "match": {
+              "location": "StepDefinations.i_click_on_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347989801,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click yes on first time buyer question",
+            "match": {
+              "location": "StepDefinations.i_click_yes_on_first_time_buyer_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501334099,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select a title from the dropdown menu",
+            "match": {
+              "location": "StepDefinations.i_select_a_title_from_the_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112947599,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter a Fist name",
+            "match": {
+              "location": "StepDefinations.i_enter_a_Fist_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108853800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter a last name?",
+            "match": {
+              "location": "StepDefinations.i_enter_a_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328925800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on the male gender button",
+            "match": {
+              "location": "StepDefinations.i_click_on_the_male_gender_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146062999,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click no on the name change button",
+            "match": {
+              "location": "StepDefinations.i_click_no_on_the_name_change_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568276101,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter a DOB",
+            "match": {
+              "location": "StepDefinations.i_enter_a_DOB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267885300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "i select single from the marital status dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_single_from_the_marital_status_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80201800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click a number of dependant",
+            "match": {
+              "location": "StepDefinations.i_click_a_number_of_dependant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319791300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I select  a nationality from dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_a_nationality_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266901500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select a country of residence",
+            "match": {
+              "location": "StepDefinations.i_select_a_country_of_residence()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103291400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter my city of birth",
+            "match": {
+              "location": "StepDefinations.i_enter_my_city_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232007301,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I select a country of birth from dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_a_country_of_birth_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244585900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select a country of tax residence  from dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_a_country_of_tax_residence_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108461600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click No on US Citizen question",
+            "match": {
+              "location": "StepDefinations.i_click_No_on_US_Citizen_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102833800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click No on Politically exposed person",
+            "match": {
+              "location": "StepDefinations.i_click_No_on_Politically_exposed_person()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590828400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on next button",
+            "match": {
+              "location": "StepDefinations.i_click_on_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 891291601,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I select a residential status",
+            "match": {
+              "location": "StepDefinations.i_select_a_residential_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100597501,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter a postcode",
+            "match": {
+              "location": "StepDefinations.i_enter_a_postcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3085635500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on find address button",
+            "match": {
+              "location": "StepDefinations.i_click_on_find_address_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1430850401,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on address dropdown to select address",
+            "match": {
+              "location": "StepDefinations.i_click_on_address_dropdown_to_select_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531997399,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter a date moved",
+            "match": {
+              "location": "StepDefinations.i_enter_a_date_moved()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124587000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter a telephone number",
+            "match": {
+              "location": "StepDefinations.i_enter_a_telephone_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160226900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter a preferred email address",
+            "match": {
+              "location": "StepDefinations.i_enter_a_preferred_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80594700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on No to post question",
+            "match": {
+              "location": "StepDefinations.i_click_on_No_to_post_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78512801,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on yes to email question",
+            "match": {
+              "location": "StepDefinations.i_click_on_yes_to_email_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97873200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on No to text question",
+            "match": {
+              "location": "StepDefinations.i_click_on_No_to_text_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84101401,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on yes to phone  question",
+            "match": {
+              "location": "StepDefinations.i_click_on_yes_to_phone_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661437400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on next option",
+            "match": {
+              "location": "StepDefinations.i_click_on_next_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3140643100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I select property type",
+            "match": {
+              "location": "StepDefinations.i_select_property_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91843600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "i enter a loan amount",
+            "match": {
+              "location": "StepDefinations.i_enter_a_loan_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82153100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I enter a purchase price",
+            "match": {
+              "location": "StepDefinations.i_enter_a_purchase_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177161901,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter a source of deposit",
+            "match": {
+              "location": "StepDefinations.i_enter_a_source_of_deposit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82455800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click no to buying flat  question",
+            "match": {
+              "location": "StepDefinations.i_click_no_to_buying_flat_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113935900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click no to purchase scheme   question",
+            "match": {
+              "location": "StepDefinations.i_click_no_to_purchase_scheme_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96314301,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click no to new build question",
+            "match": {
+              "location": "StepDefinations.i_click_no_to_new_build_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93206300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click no to property wish question  question",
+            "match": {
+              "location": "StepDefinations.i_click_no_to_property_wish_question_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78594999,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click no to own properties  question",
+            "match": {
+              "location": "StepDefinations.i_click_no_to_own_properties_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1272632900,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click next button",
+            "match": {
+              "location": "StepDefinations.i_click_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4457220101,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I click number of main incomes",
+            "match": {
+              "location": "StepDefinations.i_click_number_of_main_incomes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164039900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click current employment status dropdown",
+            "match": {
+              "location": "StepDefinations.i_click_current_employment_status_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136158600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I select employment status",
+            "match": {
+              "location": "StepDefinations.i_select_employment_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100526100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I enter employers name",
+            "match": {
+              "location": "StepDefinations.i_enter_employers_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115224701,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click on contract type dropdown",
+            "match": {
+              "location": "StepDefinations.i_click_on_contract_type_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101819799,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I select contract type from dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_contract_type_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87708099,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter occupation",
+            "match": {
+              "location": "StepDefinations.i_enter_occupation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120762000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click on type of employment dropdown",
+            "match": {
+              "location": "StepDefinations.i_click_on_type_of_employment_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83742400,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I select type of employment from dropdown",
+            "match": {
+              "location": "StepDefinations.i_select_type_of_employment_from_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 525955900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I enter date started",
+            "match": {
+              "location": "StepDefinations.i_enter_date_started()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85296800,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I enter Basic annual income",
+            "match": {
+              "location": "StepDefinations.i_enter_Basic_annual_income()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116780500,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I enter a monthly net income",
+            "match": {
+              "location": "StepDefinations.i_enter_a_monthly_net_income()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124550300,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click no on other income option",
+            "match": {
+              "location": "StepDefinations.i_click_no_on_other_income_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65056200,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter anticipated retirement  age",
+            "match": {
+              "location": "StepDefinations.i_enter_anticipated_retirement_age()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2259174701,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I click a next button option",
+            "match": {
+              "location": "StepDefinations.i_click_a_next_button_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3519405500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 77,
+                "value": "#    And I click on add commitment button"
+              },
+              {
+                "line": 78,
+                "value": "#    And I click on Commitment type dropdown"
+              },
+              {
+                "line": 79,
+                "value": "#    Then I type  a provider"
+              },
+              {
+                "line": 80,
+                "value": "#    And I type a monthly payment"
+              },
+              {
+                "line": 81,
+                "value": "#    And I type an outstanding amount"
+              },
+              {
+                "line": 82,
+                "value": "#    And I click yes on repay commitment question"
+              }
+            ],
+            "line": 83,
+            "name": "I click next button on expenditure page",
+            "match": {
+              "location": "StepDefinations.i_click_next_button_on_expenditure_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1573478000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click on Submit application",
+            "match": {
+              "location": "StepDefinations.i_click_on_Submit_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Buyer  Test",
+    "description": "",
+    "id": "first-buyer--test",
+    "keyword": "Feature",
+    "uri": "FirstBuyer.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@FirstBuyer"
+      }
+    ]
+  }
+]
